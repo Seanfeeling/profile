@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/myall.css">
+    <title>沫調啤 More beer</title>
+    <style>
+        body {
+            /* background-image: url(./image/MulledWine.jpg); */
+
+            /* 漸層效果 */
+            background-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(./image/MulledWine.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .word01 {
+            background-color: rgba(212, 94, 25, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">沫調啤 More beer / 調酒&生啤酒專賣店</a>
+            <!-- 漢堡選單(手機選單)，md以下才看到 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 左邊選單 -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html" target="_blank">關於我們</a>
+                    </li>
+                </li><li class="nav-item">
+                    <a class="nav-link" href="./myspecial.html" target="_blank">本店特色</a>
+                </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="./service.html" target="_blank">服務類別</a>
+                    </li> -->
+                    <li class="nav-item dropdown"><!-- 下拉選單 -->
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./menu01.html" target="_blank">DIY冷凍調酒</a></li>
+                            <li><a class="dropdown-item" href="./menu02.html" target="_blank">現烤甜品</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./details.html" target="_blank">線上訂購</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">聯絡我們</a>
+                    </li>
+                </ul>
+
+                <!-- 右邊搜尋
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row justify-content-between mt-5">
+            <div class="col-md-3">
+                <div class="word01 p-2 mt-3">
+                    <div class="h4 fw-900 text-light">
+                        都市裡的秘境，營地氛圍場域使人置身秘境森林裡悠然放鬆。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between mt-5">
+            <div class="col-md-3">
+                <div class="word01 p-2 mt-3">
+                    <div class="h4 fw-900 text-light">
+                        提供多款調酒與啤酒，讓人沉浸在酒精與泡沫的世界裡。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between mt-5">
+            <div class="col-md-3">
+                <div class="word01 p-2 mt-3">
+                    <div class="h4 text-light">
+                        遠離塵囂，享受放鬆的氛圍。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
